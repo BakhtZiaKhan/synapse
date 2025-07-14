@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient(135deg, #18181b 0%, #27272a 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #f3f4f6;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  padding: 36px 32px 32px 32px;
+  border: 1px solid #e5e7eb;
+}
+
+h1 {
+  text-align: center;
+  color: #18181b;
+  margin-bottom: 8px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+h2 {
+  color: #232326;
+  margin-top: 32px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+label, button {
+  display: block;
+  margin: 16px 0 8px 0;
+}
+
+input[type="file"] {
+  margin-bottom: 16px;
+}
+
+button {
+  background: linear-gradient(90deg, #52525b, #18181b);
+  color: #fafafa;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+button:hover:enabled {
+  background: linear-gradient(90deg, #18181b, #52525b);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+
+button:disabled {
+  background: #d1d5db;
+  color: #888;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+footer {
+  margin-top: 32px;
+  text-align: center;
+  color: #888;
+  font-size: 0.98rem;
+}
+
+h2:not(:first-child) {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 24px;
+}
+
+.info {
+  color: #2563eb;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.success {
+  color: #059669;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+p, label {
+  color: #232326;
+} 
