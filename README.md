@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Synapse - Open-Source Meeting Assistant
 
 An intelligent web application that processes audio recordings of meetings to generate transcripts, summaries, action items, and key decisions using entirely free, open-source tools.
@@ -114,3 +115,6 @@ This project is designed for collaborative development. Each team member can foc
 ## 📄 License
 
 This project is open source and available under the MIT License. 
+=======
+# synapse
+>>>>>>> a199808e6fb1831e12d60b3e43eb474dbc679965
