@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js build output
+.next/
+out/
+
+# Local uploads and data
+uploads/
+*.sqlite3
+*.db
+
+# Environment variables and secrets
+.env
+.env.*
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Ollama/AI model cache (if any)
+*.bin
+*.pt
+*.ckpt
+
+# Large files
+*.mp3
+*.mp4
+*.wav
+*.m4a
+
+# System files
+*.bak
+*.tmp 
