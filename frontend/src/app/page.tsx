@@ -99,7 +99,7 @@ export default function Home() {
       <p className="info" style={{ textAlign: 'center' }}>AI-Powered Meeting Assistant</p>
       <h2>Upload Your Meeting Recording</h2>
       <p>Get instant transcripts, summaries, and insights</p>
-      <label htmlFor="file-upload">Choose File</label>
+      <label htmlFor="file-upload">Choose File (.mp3 ,.wav, .m4a, .mp4, .mov,.mkv ) </label>
       <input
         id="file-upload"
         type="file"
@@ -151,7 +151,7 @@ export default function Home() {
         <h2>Easy Upload</h2>
         <p>Support for all major audio and video formats. Drag and drop interface.</p>
         <footer>
-          © 2024 Synapse Meeting Assistant. Built with modern web technologies.
+          © 2025 Synapse Meeting Assistant.
         </footer>
       </>}
     </div>
